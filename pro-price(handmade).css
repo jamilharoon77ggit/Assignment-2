@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300..900&display=swap');
+:root {
+    scrollbar-gutter: auto;
+    --primary-color: #933C24;
+    --secondary-color:#050300;
+    --background-color:white;
+    --font-primary: "Sansita Swashed", system-ui
+}
+.header {
+    background-image: url('./Images/vegetable pic/background image.jpg');
+    height: 100vh;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.logo {
+    
+    width: 70px;
+    height: 80px;
+}
+
+.nav-link {
+    color: var(--background-color);
+    font-weight: 600;
+}
+
+.active {
+    color: var(--secondary-color) !important;
+}
+.cardveg {
+     position: absolute;
+    top: 8rem;
+    left: 50px;
+    margin: 0 50px;
+}
+.card-img-top {
+    width: 25rem;
+    height: 25rem;
+    border-radius: 10px;
+}
+.card-img-overlay {
+    top: 18rem;
+}
+.card-title {
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-display: auto;
+    align-content: center;
+    color: darkgray;
+}
+.btn {
+    background-color: darkgreen;
+   border-radius: 5px;
+    width: 40%;
+    height: 30px;
+
+}
+/* fruit */
+.cardfru {
+     position: absolute;
+    top: 10rem;
+    left: 100px;
+    margin: 0 50px;
+}
+.cardfru-img-top {
+    width: 20rem;
+    height: 20rem;
+    margin-left: 120vh;
+    margin-top: 10vh;
+    
+    border-radius: 10px;
+}
+.cardfru-img-overlay {
+    top: 16rem;
+    left: 100px;
+}
+.cardfru-title {
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-display: auto;
+    align-content: center;
+    color: darkgray;
+}
+.btnfru {
+    background-color: darkgreen;
+    border-radius: 5px;
+    width: 40%;
+    height: 30px;
+
+}
